@@ -1,0 +1,13 @@
+<ion-view style="background-color: #E0E0E0" view-title="Items">
+  <ion-content>
+  <div class="card">
+    <div class="list">
+    <ion-item class="item item-thumbnail-left" ng-repeat="items in Item" href="#/app/images/{{items.id}}">
+      <img src="img/The_Manwhore.png">
+      <h2>Pretty Hate Machine</h2>
+      {{items.name}}
+    </ion-item>
+    </div>
+  </div>
+  </ion-content>
+</ion-view>

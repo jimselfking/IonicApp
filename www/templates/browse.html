@@ -1,0 +1,16 @@
+<ion-view view-title="Camera">
+<div class="page-wrap">
+  <ion-content class="ion-content" ng-controller="CallCam">
+    <h1>Camera</h1>
+    <center>
+	    <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}">
+	    <img ng-show="imgURI === undefined" ng-src="http://placehold.it/300x300">
+	    <br><br>
+	    <button id="login-button" class="button button-block button-positive" ng-click="takePicture()">
+
+  Take Photo
+</button>
+    </center>
+  </ion-content>
+</div>
+</ion-view>
